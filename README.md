@@ -1,61 +1,85 @@
-# Optimising Reach & Maximising Impact: Breck Foundation Data Analysis 🛡️
+# Data for Good: Optimising Digital Safety with the Breck Foundation 🛡️
 
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 ![Event](https://img.shields.io/badge/Event-J.P._Morgan_Data_for_Good-blue)
-![Tech](https://img.shields.io/badge/Python-Pandas%20|%20NLP%20|%20Geospatial-orange)
+![Tech](https://img.shields.io/badge/Tools-Python%20%7C%20NLP%20%7C%20Geospatial%20Analysis-orange)
 
-##  Project Overview
-Developed during the **J.P. Morgan Data for Good Hackathon**, this project aims to support the **Breck Foundation** in their mission to educate young people about online safety and grooming.
+## Project Overview
+During the **J.P. Morgan Data for Good Hackathon**, I had the privilege of working with **Team 9** to support the **Breck Foundation**, a charity dedicated to protecting young people from online grooming and exploitation.
 
-[cite_start]Our team (Team 9) analyzed workshop data and external cyber safety trends to identify gaps in data collection, measure workshop effectiveness, and propose strategies to enhance impact[cite: 552, 555].
+Our mission was to move beyond simple reporting and use data to drive strategy. We analyzed workshop feedback and external cyber safety trends to help the Foundation identify gaps in their data collection and target their life-saving education where it is needed most.
 
-###  The Challenge
-The Breck Foundation challenges participants to:
-1.  **Analyze Workshop Data:** Assess the impact of workshops on student knowledge and behavior.
-2.  **Identify Gaps:** Evaluate current data collection methods.
-3.  **Integrate External Trends:** Compare internal data against global cyber safety risks.
-4.  **Optimize Delivery:** Propose data-driven recommendations to target high-need demographics.
-
-## 💡 Key Solution: The School Opportunity Finder
-We developed a data-driven approach to prioritize outreach to underprivileged and high-need students who are most at risk but currently under-served.
-
-### 1. Geospatial Heatmap & Opportunity Finder
-We created an interactive **School Opportunity Finder** dashboard that maps visited vs. unvisited schools.
-* [cite_start]**Green Markers:** Schools already visited by the Foundation[cite: 852].
-* [cite_start]**Red Markers:** Unvisited schools flagged as "High Need" based on Free School Meal (FSM) percentages (Deprivation Index)[cite: 852].
-* [cite_start]**Outcome:** This allows the charity to strategically allocate resources to areas with the highest deprivation, ensuring targeted life-saving education[cite: 746, 749, 819].
-
-*(Add a screenshot of your Heatmap from Slide 11 here)*
-
-### 2. NLP & Sentiment Analysis
-We applied **Natural Language Processing (NLP)** to analyze qualitative feedback from workshops.
-* [cite_start]**Top Insights:** "Peer Delivery Effectiveness" and the "Breck Story Impact" were the most frequently cited positive drivers in workshop feedback[cite: 610].
-* [cite_start]**Actionable Advice:** We recommended maintaining the authentic storytelling approach while expanding youth-led safety advocacy initiatives[cite: 616, 617].
-
-*(Add a screenshot of your NLP bar chart from Slide 4 here)*
-
-### 3. External Trend Analysis: "The Guardian Gap"
-Our analysis of external datasets (2020 vs. 2023) revealed a critical insight we termed **"The Guardian Gap"**:
-* [cite_start]While daily internet use among 10-15 year-olds has risen by **3.36%**[cite: 659], the percentage of children telling their parents about online risks has dropped significantly.
-* [cite_start]**43.4%** of children tell *no one* if they receive sexual messages[cite: 721].
-* [cite_start]**Insight:** As children's exposure peaks, communication lines with parents are breaking down, creating a gap where groomers operate[cite: 704, 705].
-
-## Tech Stack
-* **Python:** Core analysis and data manipulation.
-* **Pandas/NumPy:** Cleaning and processing workshop attendance and survey data.
-* [cite_start]**NLP (NLTK/Spacy):** Semantic analysis of feedback forms to derive behavioral insights[cite: 608].
-* [cite_start]**Geospatial Libraries (Folium/Plotly):** Creating the interactive UK heatmap to visualize reach[cite: 818].
-* **Data Visualization:** Matplotlib/Seaborn for trend analysis.
-
-##  Recommendations
-Based on our findings, we proposed a 4-step strategy for the Breck Foundation:
-1.  [cite_start]**Save Time:** Streamline the planning/scheduling of workshops using the dashboard[cite: 557].
-2.  [cite_start]**Optimise Delivery:** Prioritize unvisited schools with high deprivation scores (FSM data)[cite: 561, 853].
-3.  [cite_start]**Targeted Reach:** Focus on engaging parents and teachers, as our data showed their participation is relatively low compared to students[cite: 569, 573].
-4.  [cite_start]**Amplify Awareness:** Bridge "The Guardian Gap" by integrating digital citizenship and emotional resilience content to encourage children to speak up[cite: 648, 704].
-
-## 👥 Contributors
-* **Team 9** - J.P. Morgan Data for Good Hackathon
+*You can view the full presentation slides in the `jp_morgan_pdf_of_ppt.pdf` file included in this repository.*
 
 ---
-*Disclaimer: This project was created for the J.P. Morgan Data for Good Hackathon to support the Breck Foundation. All data used was anonymized or publicly available.*
+
+## The Challenge
+The Breck Foundation does incredible work, but they faced a key challenge: **How do we measure impact and decide where to go next?**
+
+Our team was tasked with:
+1.  Analyzing workshop data to assess student knowledge and behavioral changes.
+2.  Identifying critical gaps in how data is currently collected.
+3.  Comparing internal data against global cyber safety trends.
+4.  Proposing data-driven strategies to reach high-risk demographics.
+
+---
+
+##  My Technical Approach
+As a core contributor to the team, I focused heavily on **Exploratory Data Analysis (EDA)** and **Natural Language Processing (NLP)** to turn raw survey data into actionable insights.
+
+### 1. Deep-Dive EDA & "The Guardian Gap"
+We didn't just look at attendance numbers; we looked for the *story* behind the data. By comparing the Foundation's internal data with external datasets (2020 vs. 2023), we discovered a critical trend we called **"The Guardian Gap."**
+
+* **The Insight:** While daily internet use for 10-15 year-olds has risen significantly, the number of children telling their parents about online risks has dropped.
+* **The Impact:** This identified a specific disconnect that the Foundation needs to bridge: empowering children to speak up at home.
+
+**<img width="1110" height="710" alt="image" src="https://github.com/user-attachments/assets/cb19ae1a-619f-45d2-8bb5-fae308e62a46" />
+**
+*Figure 1: Analysis showing the widening gap between internet usage and parental communication.*
+
+### 2. Natural Language Processing (NLP) on Feedback
+To understand what makes a workshop effective, I performed **Semantic Analysis** on the qualitative feedback from students.
+* **Technique:** Used NLP techniques to categorize thousands of open-ended responses.
+* **Finding:** We identified that "Peer Delivery" and the "Breck Story" were the strongest positive drivers of engagement.
+* **Outcome:** We recommended the charity expand their Youth Ambassador program to leverage this peer-to-peer influence.
+
+**<img width="856" height="553" alt="image" src="https://github.com/user-attachments/assets/048485a6-66ac-48ef-ba71-9de853c0e436" />
+**
+*Figure 2: Frequency analysis of student feedback themes.*
+
+### 3. Geospatial Analysis: The School Opportunity Finder
+To help the charity allocate resources efficiently, we built an interactive **Heatmap & Opportunity Finder**.
+* **The Tool:** We mapped schools the Foundation has visited (Green) against unvisited schools (Red) that have high deprivation scores (Free School Meal percentage).
+* **The Goal:** This allows the charity to proactively target underprivileged areas that are statistically at higher risk but currently underserved.
+
+**<img width="647" height="802" alt="image" src="https://github.com/user-attachments/assets/fde00846-463b-4b89-bf8e-8c7de9847186" />
+**
+*Figure 3: Geospatial analysis highlighting high-need, unvisited schools.*
+
+---
+
+##  Tech Stack & Tools
+This project relied on a robust Python ecosystem:
+* **Data Manipulation:** `Pandas`, `NumPy` for cleaning and structuring complex survey data.
+* **Visualization:** `Matplotlib`, `Seaborn` for trend analysis and static charts.
+* **NLP:** `NLTK`, `Spacy` (or specific library used) for sentiment and text analysis.
+* **Geospatial:** `Folium` / `Plotly` for creating the interactive UK school heatmap.
+
+---
+
+##  Key Recommendations
+Based on our code and analysis, we delivered a 4-step strategy to the Breck Foundation:
+1.  **Save Time:** Automate workshop scheduling using the new dashboard insights.
+2.  **Optimise Delivery:** Prioritize "Red Zone" schools (high deprivation, unvisited).
+3.  **Targeted Reach:** Shift focus to engage parents and teachers, as our data showed their participation lag behind students.
+4.  **Amplify Awareness:** Update curriculum to specifically address the "Guardian Gap" and encourage open dialogue at home.
+
+---
+
+##  Project Structure
+* `jp_morgan_pdf_of_ppt.pdf`: The final presentation deck delivered to the judges.
+* `/code`: (Optional) Analysis notebooks and scripts used during the hackathon.
+
+---
+
+*Disclaimer: This project was created for the J.P. Morgan Data for Good Hackathon. All data used was anonymized or publicly available to ensure privacy and safety.*
