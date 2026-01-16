@@ -35,7 +35,8 @@ We didn't just look at attendance numbers; we looked for the *story* behind the 
 
 **<img width="1110" height="710" alt="image" src="https://github.com/user-attachments/assets/cb19ae1a-619f-45d2-8bb5-fae308e62a46" />
 **
-*Figure 1: Analysis showing the widening gap between internet usage and parental communication.*
+
+**Figure 1: Analysis showing the widening gap between internet usage and parental communication.**
 
 ### 2. Natural Language Processing (NLP) on Feedback
 To understand what makes a workshop effective, I performed **Semantic Analysis** on the qualitative feedback from students.
@@ -45,7 +46,8 @@ To understand what makes a workshop effective, I performed **Semantic Analysis**
 
 **<img width="856" height="553" alt="image" src="https://github.com/user-attachments/assets/048485a6-66ac-48ef-ba71-9de853c0e436" />
 **
-*Figure 2: Frequency analysis of student feedback themes.*
+
+**Figure 2: Frequency analysis of student feedback themes.**
 
 ### 3. Geospatial Analysis: The School Opportunity Finder
 To help the charity allocate resources efficiently, we built an interactive **Heatmap & Opportunity Finder**.
@@ -54,7 +56,8 @@ To help the charity allocate resources efficiently, we built an interactive **He
 
 **<img width="647" height="802" alt="image" src="https://github.com/user-attachments/assets/fde00846-463b-4b89-bf8e-8c7de9847186" />
 **
-*Figure 3: Geospatial analysis highlighting high-need, unvisited schools.*
+
+**Figure 3: Geospatial analysis highlighting high-need, unvisited schools.**
 
 ---
 
